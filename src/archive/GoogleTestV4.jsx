@@ -45,7 +45,7 @@ const useStyles = makeStyles(
     },
 
     searchFieldPaper: {
-      backgroundColor: 'transparent',
+      backgroundColor: 'transparent !important',
     },
 
     searchRoot: {
@@ -113,6 +113,7 @@ const GoogleTestV4 = props => {
             className={classes.searchRoot}
             classes={{
               root: classes.searchFieldPaper,
+              rounded: classes.searchFieldPaper,
             }}
             style={{
               backgroundColor: 'transparent',

@@ -4,7 +4,7 @@ import { css } from '@emotion/react'
 import { useTheme } from '@mui/material/styles'
 import Box from '@mui/material/Box'
 
-import logoImg from '../assets/googlelogo_color_272x92dp.png'
+// import logoImg from '../assets/googlelogo_color_272x92dp.png'
 
 const getStyles = theme => ({
   root: {
