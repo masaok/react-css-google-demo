@@ -42,7 +42,7 @@ const App = () => {
     <HelmetProvider>
       <CssBaseline />
       <Helmet>
-        <title>Masao Kitamura</title>
+        <title>Google</title>
       </Helmet>
       <ThemeProvider theme={theme}>
         <div className={classes.root}>
