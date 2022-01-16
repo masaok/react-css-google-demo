@@ -114,6 +114,9 @@ const GoogleTestV4 = props => {
             classes={{
               root: classes.searchFieldPaper,
             }}
+            style={{
+              backgroundColor: 'transparent',
+            }}
             elevation={0}
           >
             <IconButton type="submit" className={classes.iconButton} aria-label="search">
