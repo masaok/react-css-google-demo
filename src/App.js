@@ -5,7 +5,8 @@ import { Helmet, HelmetProvider } from 'react-helmet-async'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 
-import GoogleHomepage from './pages/GoogleHomepage'
+// import GoogleHomepage from './pages/GoogleHomepage'
+import GoogleTestV4 from './archive/GoogleTestV4'
 
 const theme = createTheme({})
 
@@ -26,7 +27,8 @@ const App = () => {
         <div className={classes.root}>
           <Router>
             <Routes>
-              <Route path="//*" element={<GoogleHomepage />} />
+              <Route path="//*" element={<GoogleTestV4 />} />
+              {/* <Route path="//*" element={<GoogleHomepage />} /> */}
             </Routes>
           </Router>
         </div>

@@ -91,11 +91,17 @@ const useStyles = makeStyles(
     mic: {
       maxWidth: 24,
     },
+
+    warning: {
+      color: 'red',
+    },
   }),
   {
     name: 'GoogleTestV4',
   }
 )
+
+const WARNING_MESSAGE = 'DEMO ONLY - SEARCH DOES NOT WORK'
 
 const GoogleTestV4 = props => {
   const classes = useStyles(props)
@@ -103,6 +109,7 @@ const GoogleTestV4 = props => {
   return (
     <div className={classes.root}>
       <div className={classes.main}>
+        <h1 className={classes.warning}>{WARNING_MESSAGE}</h1>
         <div className={classes.logoContainer}>
           <img className={classes.logo} src={logoImg} alt="logo" />
         </div>
@@ -158,6 +165,7 @@ const GoogleTestV4 = props => {
             I'm Feeling Lucky
           </Button>
         </div>
+        <h1 className={classes.warning}>{WARNING_MESSAGE}</h1>
       </div>
     </div>
   )
