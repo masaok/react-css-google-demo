@@ -73,7 +73,7 @@ const GoogleTest = () => {
       <Box sx={{ ...classes.text }}>HELLO</Box>
       <Box style={classes.text}>HELLO</Box>
       <Box css={styles.text}>HELLO</Box>
-      <Box sx={sty.text}>HELLO</Box>
+      <Box sx={sty.text}>HELLO (MUI Box required for this to work, not div)</Box>
 
       {/* FAIL */}
       <Box classes={{ root: classes.text }}>HELLO</Box>

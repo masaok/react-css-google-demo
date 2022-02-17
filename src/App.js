@@ -6,7 +6,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 
 // import GoogleHomepage from './pages/GoogleHomepage'
+import GoogleTest from './archive/GoogleTest'
 import GoogleTestV4 from './archive/GoogleTestV4'
+import HelloWorld from './pages/HelloWorld'
 
 const theme = createTheme({})
 
@@ -28,6 +30,8 @@ const App = () => {
           <Router>
             <Routes>
               <Route path="//*" element={<GoogleTestV4 />} />
+              <Route path="/mui5" element={<GoogleTest />} />
+              <Route path="/hello" element={<HelloWorld />} />
               {/* <Route path="//*" element={<GoogleHomepage />} /> */}
             </Routes>
           </Router>
